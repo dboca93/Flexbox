@@ -123,6 +123,25 @@ viewed on small screens only */
   align-items: center;
 }
 
+@media only screen and (max-width: 600) {
+  .hero-section {
+    min-height: 90vh;
+    background-image: url(images/j3s.avif);
+    background-size: cover;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+  
+    display: flex;
+    align-items: center;
+  }
+}
+
+
+
 .discount-hero {
   background-color: hsla(0, 0%, 100%, 0.8);
   width: 100%;
