@@ -108,6 +108,8 @@ viewed on small screens only */
   min-height: 90vh;
   background: url(images/jeans-2.avif);
   background-size: cover;
+  -webkit-background-size: cover; 
+  -moz-background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 
@@ -205,6 +207,8 @@ viewed on small screens only */
 .second-grid > .box:nth-child(3) {
   background: url(images/jeans-1.avif);
   background-size: cover;
+  -webkit-background-size: cover; 
+  -moz-background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -239,6 +243,8 @@ viewed on small screens only */
 .second-grid > .box:nth-child(4) {
   background: url(images/shirts.avif);
   background-size: cover;
+  -webkit-background-size: cover; 
+  -moz-background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -246,6 +252,8 @@ viewed on small screens only */
 .second-grid > .box:nth-child(5) {
   background: url(images/sweat.jpg);
   background-size: cover;
+  -webkit-background-size: cover; 
+  -moz-background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -253,6 +261,8 @@ viewed on small screens only */
 .second-grid > .box:nth-child(6) {
   background: url(images/jac.webp);
   background-size: cover;
+  -webkit-background-size: cover; 
+  -moz-background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -323,6 +333,8 @@ on smaller screen sizes */
 
   background: url(images/design.avif);
   background-size: cover;
+  -webkit-background-size: cover; 
+  -moz-background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 
