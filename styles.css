@@ -110,7 +110,7 @@ viewed on small screens only */
 
 .hero-section {
   min-height: 90vh;
-  background: url(images/jeans-2.avif);
+  background-image: url(images/j3s.avif);
   background-size: cover;
   -webkit-background-size: cover; 
   -moz-background-size: cover;
