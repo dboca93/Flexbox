@@ -497,3 +497,13 @@ footer {
     cursor: pointer;
     outline: 1px solid black;
 }
+
+@media only screen and (max-width: 600px) {
+  .footer-flex > .one {
+   display: none;
+   border-right: var(--out);
+  }
+  .footer-flex > .two, .footer-flex > .three {
+    flex-grow: 1;
+  }
+}
